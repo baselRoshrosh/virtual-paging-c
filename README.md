@@ -2,16 +2,16 @@
 
 This is a university project that simulates virtual memory management using paging in C.
 
-## 🧠 Overview
+## Overview
 
 The program simulates a simple **Memory Management Unit (MMU)** with a virtual 32-bit address space and a 16-bit physical address space. Pages are swapped in and out of RAM and disk (simulated arrays), using a FIFO page replacement strategy.
 
-## 📂 Project Files
+## Project Files
 
 - `main.c`: The full source code with all logic.
 - `Aufgabenstellung.pdf`: Original assignment description (in German).
 
-## 🔧 Features
+## Features
 
 - Translation of virtual to physical address
 - Page Table with Present and Dirty bits

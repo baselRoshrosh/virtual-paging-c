@@ -20,7 +20,13 @@ The program simulates a simple **Memory Management Unit (MMU)** with a virtual 3
 - `get_data()` and `set_data()` API
 - Error checking and test cases in `main()`
 
-## ⚙️ How to Compile
+## An Image of the Idea
+![9_01_VirtualMemoryLarger](https://github.com/user-attachments/assets/1e5b1385-c063-40b4-93f4-4a7eed918fa7)
+
+
+## How to Compile
 
 ```bash
 gcc main.c -o hu_soft_mmu -fno-stack-protector -g -fsanitize=address -std=c11
+
+
